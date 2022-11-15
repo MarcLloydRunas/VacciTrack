@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!--<meta http-equiv="x-ua-compatible" content="ie=edge" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="icon" href="../img/VacciTrack_logo_3A_2.png">
+    <title>VacciTrack</title>
+
+    <link rel="stylesheet" type="text/css" href="../build/css/bootstrap.min.css?v=1660014464">
+    <link rel="stylesheet" type="text/css" href="../build/css/login.css?v=1660014464">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../build/css/dashboard.css?v=1660014464">
+    <link rel="stylesheet" type="text/css" href="../build/css/alt-dash.css?v=1660014464">
+    <link rel="stylesheet" type="text/css" href="../build/css/admin.css?v=1660014464">
+    <link rel="stylesheet" type="text/css" href="../build/css/publicnav.css?v=1660014464">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-print.min.css" media="print">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js" crossorigin="anonymous"></script> -->
+    <script type="text/javascript" src="../build/js/alt-dash.js"></script>
+    <script type="text/javascript" src="../build/js/graphs.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script> 
+    <script src="https://cdn.datatables.net/1.11.5/js/dataTables.bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>   
+    <script>
+        $(function(){
+            $('a').each(function(){
+                if ($(this).prop('href') == window.location.href) {
+                    $(this).addClass('active'); $(this).parents('li').addClass('active');
+                }
+            });
+        });
+    </script>       
+  </head>
+  <body class="cusbody">
+<br />
+<b>Warning</b>:  session_start(): Cannot send session cache limiter - headers already sent (output started at C:\phpdesktop-chrome-57.0-rc-php-7.1.3\www\templates\header.php:10) in <b>C:\phpdesktop-chrome-57.0-rc-php-7.1.3\www\admin\dashboard-admin.php</b> on line <b>3</b><br />
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!--<meta http-equiv="x-ua-compatible" content="ie=edge" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="icon" href="../img/VacciTrack_logo_3A_2.png">
+    <title>VacciTrack</title>
+
+    <link rel="stylesheet" type="text/css" href="../build/css/bootstrap.min.css?v=1660014464">
+    <link rel="stylesheet" type="text/css" href="../build/css/login.css?v=1660014464">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../build/css/dashboard.css?v=1660014464">
+    <link rel="stylesheet" type="text/css" href="../build/css/alt-dash.css?v=1660014464">
+    <link rel="stylesheet" type="text/css" href="../build/css/admin.css?v=1660014464">
+    <link rel="stylesheet" type="text/css" href="../build/css/publicnav.css?v=1660014464">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-print.min.css" media="print">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js" crossorigin="anonymous"></script> -->
+    <script type="text/javascript" src="../build/js/alt-dash.js"></script>
+    <script type="text/javascript" src="../build/js/graphs.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script> 
+    <script src="https://cdn.datatables.net/1.11.5/js/dataTables.bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>   
+    <script>
+        $(function(){
+            $('a').each(function(){
+                if ($(this).prop('href') == window.location.href) {
+                    $(this).addClass('active'); $(this).parents('li').addClass('active');
+                }
+            });
+        });
+    </script>       
+  </head>
+  <body class="cusbody">
+
+<div class="dashbody" id="body-pd">
+    <header class="header" id="header">
+        <div class="header_toggle"> <i class='bx bx-menu' id="header-toggle" onclick="openEnt()"> <img id="logo-top" src="../img/VacciTrack_logo_3B.png" alt="Logo"></i> </div>
+        <div class="header_img"> RHU-Tuba </div>
+    </header>
+    <Scrollbar>
+    <div class="l-navbar" id="nav-bar">
+        <nav class="nav">
+            <div> 
+                <p href="#" class="nav_logo"> <i class='bx bx-user-circle nav_logo-icon'></i> <span class="nav_logo-name">marc</span> </p>
+            <div class="nav_list"> 
+                <a href="../admin/default-dash.php" class="nav_link"> <i class='bx bx-grid-alt nav_icon'></i> <span class="nav_name">Dashboard</span> </a>
+
+                <nav class="sidebar">
+                    <ul class="nav flex-column" id="nav_accordion">
+                        <li class="nav-item has-submenu">
+                            <a class="nav_link" href="#"> <i class='bx bx-user nav_icon'></i> <span class="nav_name">Accounts</span>  </a>
+                            <ul class="submenu collapse">
+                                <li class="sublink"><a href="../admin/user-accounts.php" class="nav_link sub_link">
+                                        <i class='bx bx-group nav_icon'></i> <span class="nav_name">Users</span> </a> 
+                                </li>
+                                <li class="sublink"><a href="../admin/user-accounts-reg.php" class="nav_link sub_link"> 
+                                        <i class='bx bx-user-plus nav_icon'></i> <span class="nav_name">Add User</span> </a>
+                                </li>
+                                <li class="sublink"><a href="../admin/user-requests-admin.php" class="nav_link sub_link"> 
+                                        <i class='bx bx-user-check nav_icon'></i> <span class="nav_name">Access Requests</span> </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+
+            
+                <a href="../admin/vacc-site.php" class="nav_link"> 
+                    <i class='bx bx-map-pin nav_icon'></i> <span class="nav_name">Vaccination Sites</span> </a> 
+                <a href="../admin/vacc-name.php" class="nav_link"> 
+                    <i class='bx bx-injection nav_icon'></i> <span class="nav_name">List of Vaccines</span> </a> 
+                <a href="../admin/list_sched.php" class="nav_link"> 
+                    <i class='bx bx-calendar-check nav_icon'></i> <span class="nav_name">Vaccination Dates</span> </a> 
+                <a href="../admin/admin_statistics.php" class="nav_link"> 
+                    <i class='bx bx-stats nav_icon'></i> <span class="nav_name">Statistics</span> </a>  
+                
+
+                <nav class="sidebar">
+                    <ul class="nav flex-column" id="nav_accordion">
+                        <li class="nav-item has-submenu">
+                            <a class="nav_link" href="#"> <i class='bx bx-customize nav_icon'></i> <span class="nav_name">Settings</span>  </a>
+                            <ul class="submenu collapse">
+                                <li class="sublink"><a href="../admin/update_account.php" class="nav_link sub_link">
+                                        <i class='bx bx-message-square-edit nav_icon'></i> <span class="nav_name">Update Account</span> </a> 
+                                </li>
+                                <li class="sublink"><a href="../admin/activity_logs.php" class="nav_link sub_link"> 
+                                        <i class='bx bx-notepad nav_icon'></i> <span class="nav_name">Activity Logs</span> </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+            </div> <a href="../templates/logout.php" class="nav_link"> <i class='bx bx-log-out nav_icon'></i> <span class="nav_name">SignOut</span> </a>
+        </nav>
+    </div>
+</div>
+
+<script>
+    $(function(){
+        $('a').each(function(){
+            if ($(this).prop('href') == window.location.href) {
+                $(this).addClass('active'); 
+            }
+        });
+    });
+
+    document.addEventListener("DOMContentLoaded", function(){
+      document.querySelectorAll('.sidebar .nav_link').forEach(function(element){
+        
+        element.addEventListener('click', function (e) {
+
+          let nextEl = element.nextElementSibling;
+          let parentEl  = element.parentElement;    
+
+            if(nextEl) {
+                e.preventDefault(); 
+                let mycollapse = new bootstrap.Collapse(nextEl);
+                
+                if(nextEl.classList.contains('show')){
+                  mycollapse.hide();
+                } else {
+                    mycollapse.show();
+                    // find other submenus with class=show
+                    var opened_submenu = parentEl.parentElement.querySelector('.submenu.show');
+                    // if it exists, then close all of them
+                    if(opened_submenu){
+                      new bootstrap.Collapse(opened_submenu);
+                    }
+                }
+            }
+        }); // addEventListener
+      }) // forEach
+    }); 
+        
+</script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/dataTables.bootstrap5.min.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script>
+    $(document).ready(function() {
+      $('#tablelogs').DataTable();
+    } );
+    </script>
+
+    </body>
+
+    </html>
+<div class="dashbody" id="body-pd"><div class='container aligns-items-center justify-content-center' style='width:500px; position:absolute; top:-20px; left: 40%'>
+                            <div class='container alert alert-success alert-dismissible d-flex align-items-center fade show' style='margin:-50px;'>
+                                <i class='bi-check-circle-fill'></i>
+                                    <strong class='mx-1'>Success!</strong> Changes Saved.
+                                    <button type='button' class='btn-close' data-bs-dismiss='alert'></button>
+                                      </div>
+                      </div>    <div id="reg-accounts">
+        <h2>Update Vaccine Information</h2>
+        <div class="reg_wrapper">
+            
+            <form action="" method="post">
+                <div class="row">
+                    <div class="form-group col">
+                        <label for="vaccine_name">Vaccine Name</label>
+                        <input type="text" name="vaccine_name" class="form-control " value="Astra v.2"required>
+                        <span class="invalid-feedback"></span>
+                    </div> 
+                    <div class="form-group col">
+                        <label for="doses">Number of Doses</label>
+                            <input type="text" name="doses" class="form-control " value="2"required>
+                            <span class="invalid-feedback"></span>
+                    </div> 
+                </div>
+                <div class="row">
+                    <div class="form-group col">
+                        <label for="vaccine_type">Type of Vaccine</label>
+                        <select id="vaccine_type" name="vaccine_type" class="form-control " value="Inactivated vaccine"required>
+                            <option>Inactivated vaccine</option>
+                            <option value="Inactivated vaccine">Inactivated vaccine</option>
+                            <option value="Live-attenuated vaccine">Live-attenuated vaccine</option>
+                            <option value="Live-attenuated vaccine">Live-attenuated vaccine</option>
+                            <option value="Messenger RNA (mRNA) vaccines">Messenger RNA (mRNA) vaccines</option>
+                            <option value="Subunit, recombinant, polysaccharide, and conjugate vaccine">Subunit, recombinant, polysaccharide, and conjugate vaccine</option>
+                            <option value="Toxoid vaccine">Toxoid vaccine</option>
+                            <option value="Viral vector vaccine">Viral vector vaccine</option>
+                        </select>
+                    </div>
+                    <div class="form-group col">
+                        <label for="dosage">Dosage</label>
+                            <input type="text" name="dosage" class="form-control " value="0.5ml"required>
+                            <span class="invalid-feedback"></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col">
+                        <label for="inject_type">Administration Route</label>
+                        <select id="inject_type" name="inject_type" class="form-control " value="Intramuscular"required>
+                            <option>Intramuscular</option>
+                            <option value="Oral">Oral</option>
+                            <option value="Intranasal">Intranasal</option>
+                            <option value="Subcutaneous">Subcutaneous</option>
+                            <option value="Intramuscular ">Intramuscular </option>
+                            <option value="Intradermal">Intradermal</option>
+                        </select>
+                        <span class="invalid-feedback"></span>
+                    </div>
+                    <div class="form-group col">
+                        <label for="inject_site">Injection Site</label>
+                        <select id="inject_site" name="inject_site" class="form-control" value="Anterolateral thigh muscle" required>
+                            <option>Anterolateral thigh muscle</option>
+                            <option value="Anterolateral thigh muscle">Anterolateral thigh muscle</option>
+                            <option value="Deltoid muscle of arm">Deltoid muscle of arm</option>
+                        </select>
+                        <span class="invalid-feedback"></span>
+                    </div>
+                </div>
+                <div class="row"> 
+                    <div class="form-group col">
+                        <label for="contraindications">Contraindications</label>
+                            <textarea type="text" name="contraindications" class="form-control" value="ola" required>ola</textarea>
+                            <span class="invalid-feedback"></span>
+                    </div>
+                    <div class="form-group col">
+                        <label for="ad_reactions">Adverse Reactions</label>
+                            <textarea type="text" name="ad_reactions" class="form-control " value="buldigi"required>buldigi</textarea>
+                            <span class="invalid-feedback"></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col">
+                        <label for="spec_precautions">Special Precautions</label>
+                            <textarea type="text" name="spec_precautions" class="form-control " value="tae tae"required>tae tae</textarea>
+                            <span class="invalid-feedback"></span>
+                    </div>
+                    
+                </div>
+                
+                <div class="form-group" id="sub-pd">
+                    <input type="submit" name="save_changes" class="btn btn-primary" value="Submit">
+                </div>
+            </form>
+        </div>    
+    </div>
+
+<footer class="user-footer" id="user-footer">
+    <div class="footer-bottom-user row">
+       <p class="col">&nbsp copyright &copy;2022. All Rights Reserved.</p>
+       <a class="vbrand col" href="#">VacciTrack</a>
+    </div>
+</footer></div>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/dataTables.bootstrap5.min.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script>
+    $(document).ready(function() {
+      $('#tablelogs').DataTable();
+    } );
+    </script>
+
+    </body>
+
+    </html>

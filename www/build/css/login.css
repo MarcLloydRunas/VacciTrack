@@ -1,0 +1,131 @@
+#logo-template{
+    padding-top: 40px;
+}
+#placement{
+	display: block;
+	margin-left: auto;
+  	margin-right: auto; 	
+}
+.container {
+    margin-top: 70px
+}
+
+.body-bg {
+    background-image: url(../img/bg_vt.jpg);
+}
+
+.btn:hover {
+    color: #fff
+}
+
+.input-text:focus {
+    box-shadow: 0px 1px 10px;
+    border-color: #04aa6d;
+    outline: 0px
+}
+
+.proportion-login {
+    width:40%;
+    height:auto;
+}
+
+.form-control {
+    border: 1px solid #f8c146
+}
+.input-group-append {
+    margin-left: 10px;
+}
+#user-login {
+    font-size: 10px;
+    text-align: center; 
+    
+}
+button.log-button {
+    outline: 0;
+    border: 0;
+    color: #f8c146;
+}
+
+button#acc-button {
+    outline: 0;
+    border: 0;
+    background-color: transparent;
+    position: absolute; right: 0;
+    margin: 10px;
+}
+
+.acc-login-show-inner{
+    width: 450px;
+}
+button#acc-button-close {
+    outline: 0;
+    border: 0;
+    background-color: transparent;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column-login {
+    width: 100%;
+  }
+}
+.column-username {
+  float: left;
+  width: 35%;
+  padding: 10px;
+}
+.column-password {
+  float: left;
+  width: 35%;
+  padding: 10px;
+}
+.column-login {
+  float: left;
+  width: 0;
+  padding-top: 10px;
+}
+#placelogo {
+    display: block;
+    margin-left: 0;
+}
+.proportion-verif{
+    max-width: 10%;
+    height: auto;
+}
+
+#logo-bar{
+    padding: 3px;
+    padding-left: 3%;
+    background-image: linear-gradient(to bottom right, blueviolet, blue);
+    box-shadow: 0px 10px 5px grey;
+}
+
+#veri-con{
+    display: block;
+    box-shadow: 0px 0px 10px grey;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    height: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+    padding-top: 2%;
+    border-radius: 7px;
+    background-color: white;
+}
+
+.index-nav {
+    position: absolute; 
+    margin-left: 95%;
+    margin-right: 0;
+    padding-right:-50%;
+}
+
+input.input-text {
+    border-color: grey;
+}

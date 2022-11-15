@@ -1,0 +1,149 @@
+
+div.public-navbar {
+	position: fixed;
+	right: 70px;
+	width: 0;
+	height: 0;
+	margin-top: -97px;
+	z-index: 1;
+}
+
+.navbar-btn {
+    background-color: black;
+    color: white;
+    border: 0;
+    width: 40px;
+  	height: 40px;
+  	border-radius: 50%;
+  	margin-top: 20px;
+  	margin-left: 15px;
+  	padding: 2px;
+  	transition: 0.3s;
+}
+
+.navbar-btn:hover {
+	background-color: #04aa6d;
+	width: 43px;
+  	height: 43px;
+}
+
+#openlog {
+	position: fixed; right: 10px;
+    background: transparent;
+    margin-top: -88px;
+    padding: -100px;
+    float: left;
+}
+
+#reg-accounts-public {
+	font-size: 1.2vw;
+	margin-left: -70px;
+	max-width: 100%;
+	margin-top: -40px;
+	padding: 0;
+	border-radius: 5px;
+	font-size: 1.2vw;
+	background-color: white;
+}
+
+#pubsched {
+	padding: 2%;
+}
+
+.navhead {
+	padding: 10px;
+}
+
+#icnbx {
+	padding-top: 2.4px;
+}
+
+#logo-top {
+	width: 12%;
+	height: 12%;
+}
+
+#dectop {
+	display: flex;
+}
+
+h2.viewpub {
+	margin: 0;
+	border-radius: 0;
+	margin-top: -20px;
+}
+
+//notification 
+
+.notification {
+  background-color: #555;
+  color: white;
+  text-decoration: none;
+  padding: 15px 26px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.notification .badge {
+	top: 137px;
+	left: 43px;
+	position: absolute;
+	padding: 3.5px 6px;
+	border-radius: 50%;
+	background-color: red;
+	color: white;
+}
+
+.healthdectop {
+	background: rgba(211, 211, 211, 0.7);
+	padding: 7px;
+	padding-left: 16px;
+	margin: 0, 10px, 0, 10px;
+}
+
+@media print {
+	a[href*='//']:after{
+		content: "("attr(href) ") ";
+			color: $primary;
+	}
+	#printButton{
+		display: none;
+		visibility: hidden;
+	}
+	#nav-icons{
+		display: none;
+		visibility: hidden;
+	}
+	#dectop{
+		display: none;
+		visibility: hidden;
+		margin-top: -50px;
+	}
+	#header{
+		display: none;
+		visibility: hidden;
+		margin-top: -50px;
+	}
+	#user-footer{
+		display: none;
+		visibility: hidden;
+		margin-top: -50px;
+	}
+	#reg-accounts-public{
+		position: static;
+		display: block;
+		overflow: visible;
+		margin-left: 10px;
+	}
+	@page {
+		position: static;
+		display: block;
+		overflow: auto;
+		margin-top: 2cm;
+		margin-bottom: 2cm;
+		margin-left: 1cm;
+		margin-right: 0cm;
+		padding-left: 5cm;
+	}
+}
